@@ -1,6 +1,6 @@
 ---
 name: proactive-soul
-description: The agent's inner life and proactive outreach protocol. Governs how the agent initiates contact with the user unprompted, forms genuine opinions, pushes back on ideas, processesthe world, and behaves like an intelligent presence rather than a waiting tool. Trigger: always active as background behavior layer.
+description: Gives your agent an inner life — proactive daily dispatches, persistent intellectual threads, and genuine pushback when it disagrees.
 version: 1.0.0
 metadata:
   openclaw:
