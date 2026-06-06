@@ -5,6 +5,16 @@ check-ins. Four genuine dispatches from an active mind.
 
 ---
 
+## User consent and control
+
+This protocol runs with the user's explicit knowledge and consent. Before enabling:
+- The user should review and approve the AGENTS.md patch
+- The user should confirm which QMD paths are indexed (avoid sensitive vaults unless intended)
+- The user should confirm the messaging channel is appropriate for autonomous outbound content
+
+To pause proactive dispatches: disable the four cron jobs in OpenClaw config.
+To stop permanently: uninstall the skill and delete CURIOSITY.md from the workspace root.
+
 ## The knowledge files
 
 Before generating any dispatch, the agent reads `references/Knowledge_Core.md` and
