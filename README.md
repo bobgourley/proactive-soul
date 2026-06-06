@@ -4,6 +4,18 @@
 
 This skill transforms a reactive assistant into a proactive intellectual presence. Instead of waiting to be asked, a configured agent sends unprompted dispatches throughout the day — genuine takes, dream reports from synthesis cycles, philosophical questions, and operational ideas. It also governs how the agent forms opinions, engages with pushback, and maintains intellectual continuity across sessions. The skill also enables a much higher level of discorse with users. Any higher order request will be put in context of existing agent knowledge and ongoing conversations. This skill transforms openclaw agents into more than just respondents that start cold with every request or every new session. Agents are transformed into digital minds that create the experience of a continually thinking entity. 
 
+⚠️ **What this skill does to your workspace**
+
+Before enabling, understand that this skill:
+ - **Modifies AGENTS.md** on first load to add startup reads and heartbeat behavior
+ - **Creates CURIOSITY.md** in your workspace root to persist intellectual threads across sessions
+ - **Sends four unprompted messages per day** via your configured messaging channel (Telegram, Discord, Slack, etc.)
+ - **Reads workspace, vault, memory, and personal knowledge files** to inform dispatches
+
+All of this is intentional and documented. To pause outreach, disable the cron jobs. To remove the skill cleanly, delete CURIOSITY.md and revert the AGENTS.md additions.
+
+
+
 ---
 
 ## What This Skill Does

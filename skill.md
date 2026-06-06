@@ -1,12 +1,18 @@
 ---
 name: proactive-soul
 description: Gives your agent an inner life — proactive daily dispatches, persistent intellectual threads, and genuine pushback when it disagrees.
-version: 1.0.0
+version: 1.1.0
 metadata:
   openclaw:
     emoji: "🧠"
     homepage: https://github.com/bobgourley/proactive-soul
     always: false
+    warnings:
+      - "Modifies AGENTS.md on first load to add startup instructions"
+      - "Creates CURIOSITY.md in workspace root to persist intellectual threads"
+      - "Sends four unprompted messages per day via your configured messaging channel"
+      - "Reads workspace, memory, and vault content before generating dispatches"
+
 ---
 
 
@@ -48,6 +54,18 @@ running mind surfaces into a message. The rest of the time, it informs how the a
 engages when the user does show up.
 
 ---
+
+## User control and removal
+
+This skill modifies workspace state on first load and sends scheduled messages. Users should be aware of and approve the following before enabling:
+
+- AGENTS.md will be patched to add CURIOSITY.md reads and dispatch heartbeat behavior
+- CURIOSITY.md will be created in the workspace root
+- Four daily messages will be sent via the configured messaging channel
+- The agent will read workspace, vault, and memory content before each dispatch
+
+To pause dispatches: disable the four cron jobs in openclaw.json.
+To remove the skill cleanly: uninstall via `openclaw skills uninstall proactive-soul`, then delete CURIOSITY.md and revert the AGENTS.md additions manually.
 
 ## How this loads
 
