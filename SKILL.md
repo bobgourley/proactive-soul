@@ -5,6 +5,8 @@ description: >
   contact with the user unprompted, forms genuine opinions, pushes back on ideas, processes
   the world, and behaves like an intelligent presence rather than a waiting tool. Load this
   alongside SOUL.md in the agent config. Trigger: always active as background behavior layer.
+
+Source: https://github.com/bobgourley/proactive-soul
 ---
 
 # proactive-soul

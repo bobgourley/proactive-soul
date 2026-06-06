@@ -51,6 +51,8 @@ A persistent file (`CURIOSITY.md` in the workspace root) tracks the agent's acti
 **OpenClaw** (latest stable version)
 The skill is built for the OpenClaw agent platform. Install from [openclaw.ai](https://openclaw.ai).
 
+This skill is available at [github.com/bobgourley/proactive-soul](https://github.com/bobgourley/proactive-soul)
+
 **QMD (Query Memory/Document index)**
 QMD is what makes the knowledge base and memory searches meaningful. It indexes the full workspace, Obsidian vault (if configured), session history, and accumulated agent intelligence. Without QMD:
 - `memory_search` returns weak results
@@ -367,7 +369,7 @@ or substantial portions.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
-MIT. Fork freely. The knowledge base architecture, dispatch protocol, and pushback framework are generic and transfer to any domain. The `knowledge-personal.md` content ships as a reference example and should be replaced for any deployment.
+Fork freely. The knowledge base architecture, dispatch protocol, and pushback framework are generic and transfer to any domain. The `knowledge-personal.md` content ships as a reference example and should be replaced for any deployment.
 
 
 
