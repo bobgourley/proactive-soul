@@ -40,7 +40,7 @@ The agent's intellectual soil is organized as a tiered knowledge system (see **K
 
 ### Intellectual Continuity via CURIOSITY.md
 
-A persistent file (`CURIOSITY.md` in the workspace root) tracks the agent's active intellectual threads across sessions. Without it, every dispatch is a cold start. With it, the agent picks up threads from three days ago, advances ongoing questions, and creates the experience of a mind that's been thinking rather than a system generating outputs.
+A persistent file (`CURIOSITY.md` in the workspace root) tracks the agent's active intellectual threads across sessions. Without it, every dispatch is a cold start. With it, the agent picks up relevant threads from the past, advances ongoing questions, and creates the experience of a mind that's been thinking rather than a system generating outputs.
 
 ---
 
@@ -360,19 +360,5 @@ Agents reconstitute from files each session. Without a persistent thread registr
 
 ## License
 
-MIT License. Copyright (c) 2026 Bob Gourley / OODA LLC.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this 
-software to use, copy, modify, merge, publish, distribute, and sublicense it freely, 
-with or without restriction, provided this copyright notice is retained in all copies 
-or substantial portions.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-
-Fork freely. The knowledge base architecture, dispatch protocol, and pushback framework are generic and transfer to any domain. The `knowledge-personal.md` content ships as a reference example and should be replaced for any deployment.
-
-
-
-
-
+MIT-0. Published on ClawHub. Free to use, modify, and redistribute — including commercially. No attribution required.
 
